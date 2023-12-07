@@ -69,7 +69,7 @@ function Skills() {
                 }}
               />
             </Col>
-            <Col xs={isMediumScreen ? 12 : 6} className="mb-4">
+            <Col xs={isMediumScreen ? 12 : 6}>
               <p>Django</p>
               <Progress
                 percent={65}
