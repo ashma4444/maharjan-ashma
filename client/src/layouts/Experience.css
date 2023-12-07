@@ -1,0 +1,28 @@
+.experience {
+  padding: 100px 35px;
+}
+
+.date-text {
+  color: #000;
+}
+
+.icon1 {
+  color: #fff;
+  background-color: #2c98f0;
+}
+
+.icon2 {
+  color: #fff;
+  background-color: #fbc630;
+}
+
+.icon3 {
+  color: #fff;
+  background-color: #a84cb8;
+}
+
+@media screen and (max-width: 1169px) {
+  .date-text {
+    color: #ffffff;
+  }
+}

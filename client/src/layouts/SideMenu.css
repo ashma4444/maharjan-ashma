@@ -1,0 +1,48 @@
+.image-container {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.portfolio-img {
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.portfolio-name {
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.small-text-custom {
+  color: #2c98f0;
+}
+
+a {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  position: relative;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: -1px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #2c98f0;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
