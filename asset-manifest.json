@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/maharjan-ashma/static/css/main.6c404fe2.css",
-    "main.js": "/maharjan-ashma/static/js/main.8fe675ed.js",
+    "main.js": "/maharjan-ashma/static/js/main.3355ef76.js",
     "static/media/main.jpg": "/maharjan-ashma/static/media/main.94f8a5a7c24b329947d3.jpg",
     "static/media/profile.jpg": "/maharjan-ashma/static/media/profile.98221dd0b6a6981e2131.jpg",
     "index.html": "/maharjan-ashma/index.html",
     "main.6c404fe2.css.map": "/maharjan-ashma/static/css/main.6c404fe2.css.map",
-    "main.8fe675ed.js.map": "/maharjan-ashma/static/js/main.8fe675ed.js.map"
+    "main.3355ef76.js.map": "/maharjan-ashma/static/js/main.3355ef76.js.map"
   },
   "entrypoints": [
     "static/css/main.6c404fe2.css",
-    "static/js/main.8fe675ed.js"
+    "static/js/main.3355ef76.js"
   ]
 }
