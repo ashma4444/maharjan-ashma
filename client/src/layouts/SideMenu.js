@@ -1,6 +1,6 @@
 import Home from "../pages/Home";
 import React, { useRef } from "react";
-import { Link, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Sidebar } from "react-responsive-sidebar";
 import "./SideMenu.css";
 import profile from "../assets/images/profile.jpg";
@@ -98,21 +98,14 @@ function SideMenu() {
         toggleIconColor="rgba(0, 0, 0, 0.7)"
         color="rgba(0, 0, 0, 0.7)"
       >
-        <Routes>
-          <Route
-            index
-            element={
-              <Home
-                aboutRef={aboutRef}
-                contactRef={contactRef}
-                homeRef={homeRef}
-                skillsRef={skillsRef}
-                educationRef={educationRef}
-                expRef={expRef}
-              />
-            }
-          />
-        </Routes>
+        <Home
+          aboutRef={aboutRef}
+          contactRef={contactRef}
+          homeRef={homeRef}
+          skillsRef={skillsRef}
+          educationRef={educationRef}
+          expRef={expRef}
+        />
       </Sidebar>
     </>
   );
