@@ -5,17 +5,8 @@ import Contact from "../layouts/Contact";
 import Education from "../layouts/Education";
 import Experience from "../layouts/Experience";
 import React from "react";
-import Skills from "../layouts/Skills";
-// import { useMediaQuery } from "react-responsive";
 
-function Home({
-  aboutRef,
-  contactRef,
-  educationRef,
-  expRef,
-  homeRef,
-  skillsRef,
-}) {
+function Home({ aboutRef, contactRef, educationRef, expRef, homeRef }) {
   // const isSmallScreen = useMediaQuery({ maxWidth: 576 });
 
   const downloadCV = () => {
@@ -57,9 +48,6 @@ function Home({
       </div>
       <section ref={aboutRef}>
         <About />
-      </section>
-      <section ref={skillsRef}>
-        <Skills />
       </section>
       <section ref={educationRef}>
         <Education />

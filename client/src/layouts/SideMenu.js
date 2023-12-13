@@ -9,7 +9,6 @@ function SideMenu() {
   const aboutRef = useRef(null);
   const contactRef = useRef(null);
   const homeRef = useRef(null);
-  const skillsRef = useRef(null);
   const educationRef = useRef(null);
   const expRef = useRef(null);
 
@@ -22,12 +21,6 @@ function SideMenu() {
   const scrollToHome = () => {
     if (homeRef.current) {
       homeRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
-  const scrollToSkills = () => {
-    if (skillsRef.current) {
-      skillsRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -67,11 +60,6 @@ function SideMenu() {
           </Link>
         </li>
         <li className="text-center mb-4">
-          <Link className="menu-item" onClick={scrollToSkills}>
-            Skills
-          </Link>
-        </li>
-        <li className="text-center mb-4">
           <Link className="menu-item" onClick={scrollToEducation}>
             Education
           </Link>
@@ -102,7 +90,6 @@ function SideMenu() {
           aboutRef={aboutRef}
           contactRef={contactRef}
           homeRef={homeRef}
-          skillsRef={skillsRef}
           educationRef={educationRef}
           expRef={expRef}
         />
